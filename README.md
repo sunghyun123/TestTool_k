@@ -54,8 +54,14 @@ GUI 로그로 실시간 확인하는 QA 성능 모니터링 툴입니다.
 - 추가 pip 설치는 iOS 도구(`pymobiledevice3`) 중심으로 필요
 
 ---
+### 🔹 사용 기술
 
-## 실행 방법
-
-```bash
-python main.py
+- Python
+- Tkinter (GUI)
+- subprocess / threading / queue
+- Android Debug Bridge (adb)
+- tidevice
+- pymobiledevice3
+- iOS DVT(Graphics / Sysmon / Diagnostics)
+- Regular Expression (re)
+- JSON Parsing
